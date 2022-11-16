@@ -44,7 +44,7 @@ export const Projects =()=> {
     ];
         
    return(
-    <div className="projall" id="projects">
+    <div className="projall" >
     <section>
         <Container>
             <Row>
