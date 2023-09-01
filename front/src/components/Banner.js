@@ -56,7 +56,8 @@ export const Banner = ()=> {
                 <h1>{'Hi I`m Aron '}<span className="wrap">{text}</span></h1>
                 <p>i am full stack web developer using react nodejs express mongo db and i have also mobile application developer using react native i can also develope a website using wordpress </p>
                 <button onClick={()=> console.log("connect")}>
-                    Let's Connect
+                <a href="https://github.com/aron001">
+                    Let's see projects</a>
                 </button>
                 </div>}
                 </TrackVisibility>

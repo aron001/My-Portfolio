@@ -1,6 +1,9 @@
 import { useState, useEffect} from "react";
 import {Navbar, Container, Nav} from "react-bootstrap";
 import './Navbar.css';
+import github from '../assets/img/github.png';
+import linked from '../assets/img/linked.png';
+import telegram from '../assets/img/telegram.png';
 export const NavBar = () => {
     const [activeLink, setActiveLink]=useState('home');
     const [scrolled, seScrolled]=useState(false);
@@ -47,11 +50,14 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="https://t.me/Ashu_aron"><img src={''} alt=""/></a>
-                    <a href="https://t.me/Ashu_aron"><img src={''} alt=""/></a>
-                    <a href="https://t.me/Ashu_aron"><img src={''} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/aron-hunde-665001240"><img src={github} alt=""/></a>
+                    <a href="https://github.com/aron001"><img src={linked} alt=""/></a>
+                    <a href="https://t.me/Ashu_aron"><img src={telegram} alt=""/></a>
                 </div>
-                <button className="vvd" onClick={() => console.log('connect')}><span>lets connect</span></button>
+                <button className="vvd" onClick={() => console.log('connect')}><span>
+                <a href="https://www.linkedin.com/in/aron-hunde-665001240">
+                    lets connect</a>
+                    </span></button>
             </span>
             </Navbar.Collapse>
         </Container>
