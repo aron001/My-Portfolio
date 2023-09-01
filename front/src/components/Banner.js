@@ -57,7 +57,7 @@ export const Banner = ()=> {
                 <p>i am full stack web developer using react nodejs express mongo db and i have also mobile application developer using react native i can also develope a website using wordpress </p>
                 <button onClick={()=> console.log("connect")}>
                 <a href="https://github.com/aron001">
-                    Let's see projects</a>
+                    Let's see my projects</a>
                 </button>
                 </div>}
                 </TrackVisibility>
